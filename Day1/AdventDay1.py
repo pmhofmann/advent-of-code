@@ -1,4 +1,4 @@
-inputfile = open('AdventInput', 'r')
+inputfile = open('AdventDay1Input', 'r')
 frequencies = inputfile.read().splitlines()
 inputfile.close()
 results = map(int, frequencies)
